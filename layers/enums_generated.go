@@ -7,11 +7,18 @@ package layers
 
 import (
 	"fmt"
+	"sync"
 
 	"github.com/metacubex/gopacket"
 )
 
-func init() {
+var initOnce sync.Once
+
+func Init() {
+	initOnce.Do(doInit)
+}
+
+func doInit() {
 	initUnknownTypesForLinkType()
 	initUnknownTypesForEthernetType()
 	initUnknownTypesForPPPType()
