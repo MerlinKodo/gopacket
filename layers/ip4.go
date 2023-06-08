@@ -14,7 +14,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/google/gopacket"
+	"github.com/metacubex/gopacket"
 )
 
 type IPv4Flag uint8

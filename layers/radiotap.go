@@ -14,7 +14,7 @@ import (
 	"hash/crc32"
 	"strings"
 
-	"github.com/google/gopacket"
+	"github.com/metacubex/gopacket"
 )
 
 // align calculates the number of bytes needed to align with the width

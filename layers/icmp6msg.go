@@ -15,7 +15,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/google/gopacket"
+	"github.com/metacubex/gopacket"
 )
 
 // Based on RFC 4861
