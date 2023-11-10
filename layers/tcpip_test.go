@@ -7,9 +7,10 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
 	"net"
 	"testing"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 const (

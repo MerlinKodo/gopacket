@@ -10,10 +10,11 @@ package layers
 
 import (
 	"crypto/rand"
-	"github.com/metacubex/gopacket"
 	"io"
 	"reflect"
 	"testing"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 //******************************************************************************

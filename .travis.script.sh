@@ -2,10 +2,10 @@
 
 set -ev
 
-go test github.com/metacubex/gopacket
-go test github.com/metacubex/gopacket/layers
-go test github.com/metacubex/gopacket/tcpassembly
-go test github.com/metacubex/gopacket/reassembly
-go test github.com/metacubex/gopacket/pcapgo
-go test github.com/metacubex/gopacket/pcap
-sudo $(which go) test github.com/metacubex/gopacket/routing
+go test github.com/MerlinKodo/gopacket
+go test github.com/MerlinKodo/gopacket/layers
+go test github.com/MerlinKodo/gopacket/tcpassembly
+go test github.com/MerlinKodo/gopacket/reassembly
+go test github.com/MerlinKodo/gopacket/pcapgo
+go test github.com/MerlinKodo/gopacket/pcap
+sudo $(which go) test github.com/MerlinKodo/gopacket/routing

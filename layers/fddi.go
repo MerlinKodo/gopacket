@@ -7,8 +7,9 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
 	"net"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 // FDDI contains the header for FDDI frames.

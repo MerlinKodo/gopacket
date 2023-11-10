@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // TLSType defines the type of data after the TLS Record

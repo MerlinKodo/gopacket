@@ -6,9 +6,9 @@
 
 // arpscan implements ARP scanning of all interfaces' local networks using
 // gopacket and its subpackages.  This example shows, among other things:
-//   * Generating and sending packet data
-//   * Reading in packet data and interpreting it
-//   * Use of the 'pcap' subpackage for reading/writing
+//   - Generating and sending packet data
+//   - Reading in packet data and interpreting it
+//   - Use of the 'pcap' subpackage for reading/writing
 package main
 
 import (
@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/layers"
-	"github.com/metacubex/gopacket/pcap"
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/layers"
+	"github.com/MerlinKodo/gopacket/pcap"
 )
 
 func main() {

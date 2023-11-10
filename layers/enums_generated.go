@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 var initOnce sync.Once

@@ -9,7 +9,7 @@ package layers
 import (
 	"errors"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // TLSAppDataRecord contains all the information that each AppData Record types should have

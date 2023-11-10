@@ -13,8 +13,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/layers"
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/layers"
 )
 
 const snoopMagic uint64 = 0x736e6f6f70000000 //8 byte in big endian

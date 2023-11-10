@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 func TestDecodeAndEncode(t *testing.T) {

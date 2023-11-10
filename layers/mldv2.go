@@ -14,7 +14,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 const (

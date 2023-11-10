@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 type PFDirection uint8

@@ -4,6 +4,7 @@
 // that can be found in the LICENSE file in the root of the source
 // tree.
 
+//go:build ignore
 // +build ignore
 
 // This binary tests that PCAP packet capture is working correctly by issuing
@@ -19,7 +20,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/metacubex/gopacket/pcap"
+	"github.com/MerlinKodo/gopacket/pcap"
 )
 
 var mode = flag.String("mode", "basic", "One of: basic,filtered,timestamp")

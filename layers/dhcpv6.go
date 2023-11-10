@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // DHCPv6MsgType represents a DHCPv6 operation

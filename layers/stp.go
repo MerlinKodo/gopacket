@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 type STPSwitchID struct {

@@ -9,7 +9,8 @@ package layers
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/metacubex/gopacket"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 // EAPOL defines an EAP over LAN (802.1x) layer.

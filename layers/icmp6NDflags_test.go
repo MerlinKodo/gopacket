@@ -8,8 +8,9 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
 	"testing"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 var icmp6NeighborAnnouncementData = []byte{

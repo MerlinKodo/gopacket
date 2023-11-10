@@ -11,13 +11,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/metacubex/gopacket/dumpcommand"
-	"github.com/metacubex/gopacket/examples/util"
-	"github.com/metacubex/gopacket/pcap"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/MerlinKodo/gopacket/dumpcommand"
+	"github.com/MerlinKodo/gopacket/examples/util"
+	"github.com/MerlinKodo/gopacket/pcap"
 )
 
 var iface = flag.String("i", "eth0", "Interface to read packets from")

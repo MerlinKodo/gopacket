@@ -7,7 +7,7 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/layers"
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/layers"
 )
 
 // ErrNgVersionMismatch gets returned for unknown pcapng section versions. This can only happen if ReaderOptions.SkipUnknownVersion == false

@@ -3,6 +3,7 @@
 // Use of this source code is governed by a BSD-style license
 // that can be found in the LICENSE file in the root of the source
 // tree.
+//go:build linux && go1.9
 // +build linux,go1.9
 
 package pcapgo_test
@@ -11,9 +12,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/layers"
-	"github.com/metacubex/gopacket/pcapgo"
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/layers"
+	"github.com/MerlinKodo/gopacket/pcapgo"
 )
 
 func Example_captureEthernet() {

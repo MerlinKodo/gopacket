@@ -9,7 +9,7 @@ package layers
 import (
 	"errors"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // TLSchangeCipherSpec defines the message value inside ChangeCipherSpec Record

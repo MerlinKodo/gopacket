@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // test harness to ensure the dot1q layer can be encoded/decoded properly

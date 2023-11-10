@@ -9,7 +9,8 @@ package layers
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/metacubex/gopacket"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 // IPSecAH is the authentication header for IPv4/6 defined in

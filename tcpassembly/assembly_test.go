@@ -7,12 +7,13 @@
 package tcpassembly
 
 import (
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/layers"
 	"net"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/layers"
 )
 
 var netFlow gopacket.Flow

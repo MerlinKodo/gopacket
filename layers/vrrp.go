@@ -11,7 +11,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 /*

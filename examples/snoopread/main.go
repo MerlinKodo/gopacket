@@ -13,8 +13,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/metacubex/gopacket"
-	"github.com/metacubex/gopacket/pcapgo"
+	"github.com/MerlinKodo/gopacket"
+	"github.com/MerlinKodo/gopacket/pcapgo"
 )
 
 func main() {

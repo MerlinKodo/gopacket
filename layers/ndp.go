@@ -11,8 +11,9 @@ package layers
 
 import (
 	"fmt"
-	"github.com/metacubex/gopacket"
 	"net"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 type NDPChassisType uint8

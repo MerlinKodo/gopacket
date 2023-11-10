@@ -15,7 +15,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // Based on RFC 4861

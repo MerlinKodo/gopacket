@@ -9,9 +9,10 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
 	"reflect"
 	"testing"
+
+	"github.com/MerlinKodo/gopacket"
 )
 
 //******************************************************************************

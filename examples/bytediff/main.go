@@ -10,7 +10,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/metacubex/gopacket/bytediff"
+
+	"github.com/MerlinKodo/gopacket/bytediff"
 )
 
 var sliceA = []byte{

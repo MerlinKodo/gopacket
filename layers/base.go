@@ -7,7 +7,7 @@
 package layers
 
 import (
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // BaseLayer is a convenience struct which implements the LayerData and

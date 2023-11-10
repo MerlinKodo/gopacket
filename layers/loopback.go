@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/metacubex/gopacket"
+	"github.com/MerlinKodo/gopacket"
 )
 
 // Loopback contains the header for loopback encapsulation.  This header is
